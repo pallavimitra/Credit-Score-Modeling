@@ -50,10 +50,10 @@ X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.3)
 
 # Train A Random Forest Classifier
 
-#clf = RandomForestClassifier(n_estimators=10000, random_state=0, n_jobs=-1)
-#clf.fit(X_train, Y_train)
-#for feature in zip(FEATURE_LABELS, clf.feature_importances_):
-    #print(feature)
+clf = RandomForestClassifier(n_estimators=10000, random_state=0, n_jobs=-1)
+clf.fit(X_train, Y_train)
+for feature in zip(FEATURE_LABELS, clf.feature_importances_):
+    print(feature)
 # most 10 important features
 # 'campaign', 0.27728974589153127 - 2
 # 'nr_employed', 0.09050836563990655 -9
