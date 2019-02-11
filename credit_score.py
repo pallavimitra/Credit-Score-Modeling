@@ -56,7 +56,7 @@ for feature in zip(FEATURE_LABELS, clf.feature_importances_):
     print(feature)
 
 # Sort on the second tuple value (the float).
-print(sorted(feature, key=lambda x: x[1]))
+#print(sorted(feature, key=lambda x: x[1]))
 
 # most 10 important features
 # 'campaign', 0.27728974589153127 - 2
