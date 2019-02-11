@@ -54,6 +54,10 @@ clf = RandomForestClassifier(n_estimators=10000, random_state=0, n_jobs=-1)
 clf.fit(X_train, Y_train)
 for feature in zip(FEATURE_LABELS, clf.feature_importances_):
     print(feature)
+
+# Sort on the second tuple value (the float).
+print(sorted(feature, key=lambda x: x[1]))
+
 # most 10 important features
 # 'campaign', 0.27728974589153127 - 2
 # 'nr_employed', 0.09050836563990655 -9
