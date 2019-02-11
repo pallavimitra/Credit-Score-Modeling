@@ -34,3 +34,5 @@ https://github.com/pallavimitra/Credit-Score-Modeling/blob/master/PET_PROJECT_PA
 7. Functional Programming
 "PET_PROJECT_PALLAVIMITRA.pdf" from page 22 to 23.
 https://github.com/pallavimitra/Credit-Score-Modeling/blob/master/PET_PROJECT_PALLAVIMITRA.pdf
+
+The whole task has been documented in "PET_PROJECT_PALLAVIMITRA.pdf".
