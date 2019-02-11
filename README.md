@@ -2,7 +2,7 @@
 
 A) Name of the pet project:
 
-I have selected "credit score modelling" as my pet project which is written in python coding language. For this modelling, banking.csv data has been used which can be here - https://github.com/pallavimitra/Credit-Score-Modeling/blob/master/banking.csv
+I have selected "credit score modelling" as my pet project which is written in python coding language. For this modelling, banking.csv data has been used which can be found here - https://github.com/pallavimitra/Credit-Score-Modeling/blob/master/banking.csv
 The python code named "credit_score.py" for this modellimg can be found at https://github.com/pallavimitra/Credit-Score-Modeling/blob/master/credit_score.py
 
 B) The tasks of the project which I have completed are listed below with the link to the solutions:
