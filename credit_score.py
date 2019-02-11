@@ -15,7 +15,7 @@ sns.set(style="white")
 sns.set(style="whitegrid", color_codes=True)
 
 # reading dataframe
-DF = pd.read_csv('Banking.csv')
+DF = pd.read_csv('banking.csv')
 print(DF.shape)
 print(list(DF.columns))
 print(DF.isnull().sum().sum())
